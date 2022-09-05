@@ -81,5 +81,162 @@ img{
 }
 
 
-
 /*-------------------features---------------*/
+.ft_title{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.ft_para{
+    padding: 1em;
+}
+.ft_img{
+    padding: 1em;
+}
+.advance_para{
+    max-width: 285px;
+    margin: 0 auto;
+}
+
+
+
+/*---------------------Work flow---------------------*/
+.work{
+    padding: 8em 0em;
+}
+
+.work_title{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.work_para{
+    padding: 0em 1em;
+}
+.work_img{
+    display: block;
+    margin: 3em auto;
+}
+.w_c_title{
+    max-width: 280px;
+    margin: 0em auto;
+}
+.w_c_para{
+    max-width: 200px;
+    margin: 0em auto;
+}
+.sm_img{
+    margin: 4em auto 1em auto;
+    display: block;
+}
+.sm_para{
+    padding: 1em;
+}
+
+
+/*-------------------company sponsors---------------------*/
+
+.sp_img{
+    margin: 2em auto;
+}
+
+
+
+/*------------------------Downlods divecs-------------------*/
+.download_para{
+    padding:  0em 1em;
+}
+.download_btn{
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+/*-------------------Media quers---------------------------*/
+
+@media (min-width: 780px){
+    .main{
+        padding: 0em;
+    }
+    /*--------header------*/
+    .head{
+    background-image: url('./images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .head_para{
+        max-width: 560px;
+        margin: 0em auto;
+    }
+    .head_btn{
+        flex-direction: row;
+        justify-content: center;
+    }
+    /*------features----------*/
+    .ft_para{
+        max-width: 560px;
+        margin: 0em auto;
+    }
+    .ft_title{
+        max-width: 500px;
+    }
+    .ft_img{
+        max-width: 600px;
+        padding: 0em 2em 0em 0em;
+        overflow: hidden;
+        position: relative;
+        left: -30px;
+    }
+    .ft_advance{
+        margin: 2em auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+    }
+    .advance_para{
+        text-align: justify;
+    }
+
+    /*---------------work flow---------------------*/
+    .work_title{
+        max-width: 500px;
+    }
+    .work_para{
+        max-width: 640px;
+        margin: 0em auto;
+    }
+    .w_c_title{
+        max-width: 500px;
+    }
+    .w_c_small{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sm_para{
+        max-width: 300px;
+    }
+
+    /*---------------company sponsors-----------------*/
+
+    .sponsors{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: auto;
+    }
+
+    /*------------------downlods divecs------------------------*/
+    .download_para{
+        max-width: 560px;
+        margin: 0em auto;
+    }
+    .download_btn{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
